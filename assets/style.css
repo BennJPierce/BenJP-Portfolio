@@ -1,0 +1,63 @@
+
+    body{
+background-color: rgb(83, 71, 53);
+
+    }
+    
+    header {
+        text-align: center;
+        padding-bottom: 100px;
+        padding-top: 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        text-decoration: underline 2px;
+       background-image: linear-gradient(
+        rgb(67, 116, 67)30%,
+        rgb(83, 71, 53)100%
+
+
+       );
+    
+    }
+
+
+    .headercard {
+        margin-right: 20px;
+        margin: 10px;
+        float: right;
+        font-size: 17px;
+       background-image: linear-gradient(
+        rgb(67, 116, 67)0%,
+        rgb(83, 71, 53)100%
+       );
+      }
+
+
+      .headercard {
+border-radius: 8px;
+transition: all 0.5s ease-in-out;
+      }
+
+.headercard:hover {
+box-shadow: inset 0px 0px 8px rgb(102, 236, 102), 0 0 15px rgba(102, 236, 102);
+
+
+}
+
+
+
+
+
+    img{
+
+        border-radius: 15px;
+        width: 150px;
+        height: 125px;
+        margin-left: 680px;
+        margin-top: -150px;
+    
+    
+    }
+    
+    
+    
