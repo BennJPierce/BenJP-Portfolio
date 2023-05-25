@@ -8,17 +8,22 @@
     <title>Ben's Portfolio</title>
   </head>
   <body>
-    <header id="header">
-      <h1>Ben Pierce</h1>
-      <section class="headercard" id="aboutmecard">
-        <h2>Contact Me!</h2>
-        </section>
-      <section class="headercard" id="projectscard">
-        <h2>Projects</h2>
-      </section>
-      <section class="headercard" id="contactmecard">
-        <h2>About Me</h2>
-      </section>
+      <nav class="header">
+        <h1>Ben Pierce</h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="#contactimg">Contact Me!</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#aboutme">About Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     </header>
     <img id ="headerimg" src="./assets/images/IMG_5195.jpg" alt="Header Photo">
     <main>
@@ -30,7 +35,7 @@
       <section id ="projects">
         <h3>Projects</h3>
         <figure>
-          <a href="https://github.com/BennJPierce"><img src="./assets/images/Screenshot (7).png" alt="preworkguide"></a>
+          <a href="https://github.com/BennJPierce"><img id="preworkimg"src="./assets/images/Screenshot (7).png" alt="preworkguide"></a>
           <figcaption>Prework Study Guide</figcaption>
           <p>This was my first ever project and I could not get it to deploy,click on photo to checkout my GitHub!</p>
           <a href="https://bennjpierce.github.io/NewHorison-Refactor/"><img src="./assets/images/Screenshot 2023-05-18 225551.png" alt="Horison Refactor"></a>
@@ -39,9 +44,9 @@
       </section>
       <section>
         <h3>Contact me!</h3>
-        <img class=contactimg src="./assets/images/5847fafdcef1014c0b5e48ce.png" alt="gmail">
+        <img id=contactimg src="./assets/images/5847fafdcef1014c0b5e48ce.png" alt="gmail">
         <figcaption id="contactfig">bjoelpier@gmail.com</figcaption>
-        <a href="https://www.linkedin.com/in/ben-pierce-b97051234/"><img class =contactimg src="./assets/images/clipart1804713.png" alt="linkedin"></section></a>
+        <a href="https://www.linkedin.com/in/ben-pierce-b97051234/"><img id=contactimg src="./assets/images/clipart1804713.png" alt="linkedin"></section></a>
       </section>
   
     </main>

@@ -1,14 +1,19 @@
 # BenJP-Portfolio
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+
+## Description
+I created a basic landing page for my portfolio using HTML and CSS. This is a project I will continue to work on throughout my time at this boot camp. 
+
+## Installation
+
+N/A
+
+## Usage
+On this landing page you will be greeted by my name, a small photo of me, and a navigation bar. If you click on the links in the nav bar you will be taken to the corresponding section. A small about me section. A projects section, where you can click on the photo and it will take you to the deployd application. The last one is a contact me section, where you will see my email and if you click on the LinkedIn icon it will take you to my profile.
+
+## Credits
+
+N/A
+
+## License
+
+Please refer to LICENSE in the repo

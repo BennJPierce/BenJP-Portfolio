@@ -4,50 +4,50 @@ body{
 
     }
     
-header {
-    text-align: center;
-    padding-bottom: 75px;
-    padding-top: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
-    background-image: linear-gradient(
-        rgb(67, 116, 67)30%,
-        rgb(83, 71, 53)100%
+.header {
+        padding: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-image: linear-gradient(
+            rgb(67, 116, 67)0%,
+            rgb(83, 71, 53)100%
+           );
+        
+    }
+    
+.header h1 {
+        display: inline-block;
+        font-size: 48px;
+    }
+    
+    
+.header div {
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 22px;
 
-
-       );
+    }
+    
+.header div ul {
+        list-style-type: none;
+    }
+    
+.header div ul li {
+        display: inline-block;
+        margin-left: 50px;
     
     }
-
-
-.headercard {
-    margin-right: 20px;
-    margin: 10px;
-    float: right;
-    font-size: 17px;
-    background-image: linear-gradient(
-        rgb(67, 116, 67)0%,
-        rgb(83, 71, 53)100%
-       );
-      }
-
-
-.headercard {
-    border-radius: 8px;
-    transition: all 0.5s ease-in-out;
-    }
-
-.headercard:hover {
-    box-shadow: inset 0px 0px 8px rgb(102, 236, 102), 0 0 15px rgba(102, 236, 102);
-}
-
+    
+    
 #headerimg{
-
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 15px;
     width: 150px;
     height: 125px;
     margin-left: 680px;
-    margin-top: -100px;
+    margin-top: -160px;
     }
     
 h3{
@@ -70,19 +70,28 @@ p{
 }
     
 img{
-    display: grid;
+    display: flex;
+    align-items: flex-start;
     width: 400px;
     grid-template-columns: repeat(12, 1fr);
     margin-left: 530px;
     margin-bottom: 20px;
-    }
+}
+    
+      
 
 img{
     border-radius: 8px;
     transition: all 0.5s ease-in-out;  
 }
 img:hover{
-    box-shadow: inset 0px 0px 8px rgb(102, 236, 102), 0 0 15px rgba(102, 236, 102);  
+    box-shadow: inset 0px 0px 8px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255);  
+}
+
+#preworkimg{
+width: 500px;
+margin-left: 490px;
+
 }
 
 figcaption{
@@ -90,15 +99,21 @@ figcaption{
     margin-top: -12px;
     font-weight: 900;
     text-decoration: underline solid 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 
-#projects{
-margin-top: 300px;
-margin-bottom: 300px;
+#aboutme{
+    margin-top: 300px;
+    margin-bottom: 300px;
 }
 
-.contactimg{
+#projects{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+#contactimg{
     border-radius: 15px;
     width: 100px;
     height: 80px;
