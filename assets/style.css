@@ -1,16 +1,16 @@
 
-    body{
-background-color: rgb(83, 71, 53);
+body{
+    background-color: rgb(83, 71, 53);
 
     }
     
-    header {
-        text-align: center;
-        padding-bottom: 75px;
-        padding-top: 5px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 25px;
-       background-image: linear-gradient(
+header {
+    text-align: center;
+    padding-bottom: 75px;
+    padding-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    background-image: linear-gradient(
         rgb(67, 116, 67)30%,
         rgb(83, 71, 53)100%
 
@@ -20,43 +20,92 @@ background-color: rgb(83, 71, 53);
     }
 
 
-    .headercard {
-        margin-right: 20px;
-        margin: 10px;
-        float: right;
-        font-size: 17px;
-       background-image: linear-gradient(
+.headercard {
+    margin-right: 20px;
+    margin: 10px;
+    float: right;
+    font-size: 17px;
+    background-image: linear-gradient(
         rgb(67, 116, 67)0%,
         rgb(83, 71, 53)100%
        );
       }
 
 
-      .headercard {
-border-radius: 8px;
-transition: all 0.5s ease-in-out;
-      }
+.headercard {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    }
 
 .headercard:hover {
-box-shadow: inset 0px 0px 8px rgb(102, 236, 102), 0 0 15px rgba(102, 236, 102);
+    box-shadow: inset 0px 0px 8px rgb(102, 236, 102), 0 0 15px rgba(102, 236, 102);
+}
 
+#headerimg{
+
+    border-radius: 15px;
+    width: 150px;
+    height: 125px;
+    margin-left: 680px;
+    margin-top: -100px;
+    }
+    
+h3{
+    text-align: center;
+    text-decoration: underline solid 4px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    background-image: linear-gradient(
+        rgb(67, 116, 67)0%,
+        rgb(83, 71, 53)100%
+       );
+    }
+    
+p{
+   text-align: center;
+   font-size: 15px;
+ 
+
+}
+    
+img{
+    display: grid;
+    width: 400px;
+    grid-template-columns: repeat(12, 1fr);
+    margin-left: 530px;
+    margin-bottom: 20px;
+    }
+
+img{
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;  
+}
+img:hover{
+    box-shadow: inset 0px 0px 8px rgb(102, 236, 102), 0 0 15px rgba(102, 236, 102);  
+}
+
+figcaption{
+    margin-left: 530px;
+    margin-top: -12px;
+    font-weight: 900;
+    
+}
+
+#projects{
+margin-top: 300px;
+margin-bottom: 300px;
+}
+
+.contactimg{
+    border-radius: 15px;
+    width: 100px;
+    height: 80px;
+    margin-left: 700px;
+    margin-top: 10px;
 
 }
 
-
-
-
-
-    img{
-
-        border-radius: 15px;
-        width: 150px;
-        height: 125px;
-        margin-left: 680px;
-        margin-top: -150px;
-    
-    
-    }
-    
-    
-    
+#contactfig{
+    margin-left: 675px;
+}
